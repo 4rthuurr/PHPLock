@@ -1,6 +1,6 @@
 <?php
 /*
-~> example code where we need to iterate trough all clients on our example bank
+~> example code where we need to iterate through all clients on our example bank
 ~> and update their balance, this works in a multi-threaded context where the client may be doing two transactions at the exact same time.
 */
 
