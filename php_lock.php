@@ -27,7 +27,7 @@ SOFTWARE.
 class Lock {
     
     private $lockdir = "/tmp/lock/"; // temp folder for the lock files, adapt to your application's needs.
-	private $timeout = 10; // timeout in seconds until the lock breaks itself, adapt to your application's needs.
+    private $timeout = 10; // timeout in seconds until the lock breaks itself, adapt to your application's needs.
     private $name;
     private $owner = false;
     
